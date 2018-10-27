@@ -220,6 +220,11 @@ This theme is still a work-in-progress.
           background: white;
           color: black;
         }
+        @media screen and (min-width: 100em) {
+          #descriptions .box {
+            width: calc(50% - 2em);
+          }
+        }
         @media screen and (max-width: 75em) {
           .products .box {
             width: calc(50% - 2em);
@@ -293,7 +298,7 @@ This theme is still a work-in-progress.
         <h1>When it comes to online services, value and quality are of the utmost importance.</h1>
         <h1>That is out goal.</h1>
       </section>
-      <section class="full grey">
+      <section id="descriptions" class="full grey">
         <div class="box full blue" id="hosting">
           <h1>Web hosting</h1>
           <p class="text">Reliable web hosting is important to you. Whether it is for your shower thoughts or for your company it is important that you have a solid online presence. That is why we built this service. Our servers come pre-configured with <a href="https://getgrav.org/">Grav</a>,
