@@ -134,6 +134,9 @@ This theme is still a work-in-progress. */
           padding-bottom: .3em !important;
               height: 2em;
         }
+            nav button.hamburger img {
+                  height: 2em;
+            }
         nav h1,
         nav a,
         nav button,
