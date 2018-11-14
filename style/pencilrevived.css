@@ -131,8 +131,10 @@ This theme is still a work-in-progress. */
           font-family: Quicksand;
         }
         nav button.hamburger {
-          padding-bottom: .3em !important;
-              height: 2em;
+          padding: .3em .2em .05em .2em !important;
+margin: 0;
+              position: relative;
+              top: 5px;
         }
             nav button.hamburger img {
                   height: 1.5em;
