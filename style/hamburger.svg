@@ -61,7 +61,7 @@
      id="layer1"
      transform="translate(-77.146368,-131.7879)">
     <path
-       style="fill:red;stroke-width:6.96500015;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:6.96500015;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 80.678468,148.5 H 129.32153"
        id="path4518"
        inkscape:connector-curvature="0" />
