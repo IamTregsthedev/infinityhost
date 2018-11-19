@@ -114,7 +114,6 @@ This theme is still a work-in-progress. */
           box-shadow: 0px 10px 10px #11111155;
         }
         nav a:hover,
-        nav button.hamburger:hover,
         button.close:hover {
           background: white;
           color: #ef3e30;
@@ -131,7 +130,7 @@ This theme is still a work-in-progress. */
         nav button.hamburger {
           padding: .3em .2em .05em .2em !important;
 margin: 0;
-              border: 0px solid white;
+              border: 2px solid transparent;
               position: relative;
               top: 5px;
         }
