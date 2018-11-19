@@ -124,20 +124,22 @@ This theme is still a work-in-progress. */
           right: 0.5em;
           top: 0.5em;
         }
-        nav a,
-        nav button.hamburger,
-        button.close {
+        nav a, button.close {
           border: 2px solid white;
           font-family: Quicksand;
         }
         nav button.hamburger {
           padding: .3em .2em .05em .2em !important;
 margin: 0;
+              border: 0px solid white;
               position: relative;
               top: 5px;
         }
             nav button.hamburger img {
                   height: 1.5em;
+            }
+            nav button.hamburger:hover {
+                  border: 2px solid white;
             }
         nav h1,
         nav a,
