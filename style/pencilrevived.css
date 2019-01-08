@@ -45,9 +45,9 @@ This theme is still a work-in-progress. */
           position: relative;
           border: 0px solid white;
         }
-          .fancy {
-                border: 3px solid transparent;
-            }
+         .fancy {
+          border: 3px solid transparent;
+          }
         .fancy:hover {
           /*box-shadow: 0px 10px 10px #11111155;*/
           background: #f34234;
@@ -73,6 +73,10 @@ This theme is still a work-in-progress. */
         .green {
           background: #34995d;
           color: white;
+        }
+        .white {
+          background: white;
+          color: black;
         }
         .full {
           width: calc(100% - 60pt);
@@ -165,7 +169,7 @@ This theme is still a work-in-progress. */
           position: sticky;
           top: 0;
           overflow: hidden;
-          background: #ef3e30;
+          background: #2aa2ff;
           min-height: 0;
         }
         #navmenu.show {
