@@ -15,6 +15,7 @@ This theme is still a work-in-progress. */
           margin: 0;
           padding: 0;
           font-family: Quicksand;
+          scroll-behavior: smooth;
         }
         .box a.big {
           font-size: 2em;
@@ -62,7 +63,7 @@ This theme is still a work-in-progress. */
           color: white;
         }
         .blue {
-          background: #239be9;
+          background: #2aa2ff;
           color: white;
         }
         .grey {
@@ -105,7 +106,7 @@ This theme is still a work-in-progress. */
         nav {
           position: sticky;
           top: -5em;
-          background: #ef3e30;
+          background: #2aa2ff;
           padding: 0.5em 5em;
           width: calc(100% - 10em);
           color: white;
@@ -119,7 +120,7 @@ This theme is still a work-in-progress. */
         nav a:hover,
         button.close:hover {
           background: white;
-          color: #ef3e30;
+          color: #2aa2ff;
         }
         button.close {
           position: absolute;
@@ -132,10 +133,10 @@ This theme is still a work-in-progress. */
         }
         nav button.hamburger {
           padding: .3em .2em .05em .2em !important;
-margin: 0;
-              border: 2px solid transparent;
-              position: relative;
-              top: 5px;
+            margin: 0;
+            border: 2px solid transparent;
+            position: relative;
+            top: 5px;
         }
             nav button.hamburger img {
                   height: 1.5em;
